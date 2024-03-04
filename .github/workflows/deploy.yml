@@ -14,6 +14,6 @@ jobs:
         with:
           deploy_key: ${{ secrets.SSH_DEPLOY_KEY }}
           publish_dir: .
-          external_repository: urksoftware/portfolio-travel-website
+          external_repository: urksoftware/portfolio-education
           publish_branch: main
           allow_empty_commit: true
