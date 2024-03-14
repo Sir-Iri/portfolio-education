@@ -1,6 +1,10 @@
 import React from 'react'
 import Slider from 'react-slick'
-import FeedBackCard from './FeedBackCard'
+import FeedBackCard_Jenny from './FeedBackCard_Jenny'
+import FeedBackCard_Joseph from './FeedBackCard_Joseph'
+import FeedBackCard_Sarah from './FeedBackCard_Sarah'
+import FeedBackCard_David from './FeedBackCard_David'
+import FeedBackCard_Alex from './FeedBackCard_Alex'
 
 const FeedBack = () => {
     var settings = {
@@ -45,11 +49,11 @@ const FeedBack = () => {
         <h1 className='py-4 text-3xl font-bold'>Students <span className='text-[#20B486]'>Feed back</span></h1>
             <p className='text-[#6D737A] py-2'>Various versions have evolved over the years, sometimes by accident.</p>
             <Slider {...settings}>
-                <FeedBackCard/>
-                <FeedBackCard/>
-                <FeedBackCard/>
-                <FeedBackCard/>
-                <FeedBackCard/>
+                <FeedBackCard_Jenny/>
+                <FeedBackCard_Joseph/>
+                <FeedBackCard_Sarah/>
+                <FeedBackCard_David/>
+                <FeedBackCard_Alex/>
             </Slider>
         </div>
     </section>    
